@@ -45,6 +45,7 @@ void setup() {
 void loop() {
   if (timeChanged) {
    writeTime(); 
+   timeChanged = false;
   }
   if (!changingStuff) {
     displayTime();
