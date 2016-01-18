@@ -17,6 +17,7 @@ boolean changingMinute = false;
 boolean changingStuff = false;
 boolean point = true;
 boolean showingTime = true;
+boolean timeChanged = false;
 unsigned char time[4];
 
 void pciSetup(byte pin) {
@@ -42,9 +43,12 @@ void setup() {
 }
 
 void loop() {
+  if (timeChanged) {
+   writeTime(); 
+  }
   if (!changingStuff) {
     displayTime();
-    //getTime(); 
+    getTime();
   }
 }
 
@@ -79,6 +83,7 @@ void writeTime() {
   Wire.write(decToBcd(seconde));
   Wire.write(decToBcd(minuut));
   Wire.write(decToBcd(uur));
+  Wire.endTransmission();
 }
 
 byte bcdToDec(byte val) {
@@ -117,21 +122,21 @@ ISR (PCINT0_vect) {
        if (changingHour) {
          if (uur < 23) {
            uur++;
-           writeTime();
+           timeChanged = true;
          }
          else {
           uur = 0;
-          writeTime(); 
+          timeChanged = true; 
          }
        }
        else if (changingMinute) {
          if (minuut < 59) {
            minuut++;
-           writeTime();
+           timeChanged = true;
          }
          else {
            minuut = 0;
-           writeTime();
+           timeChanged = true;
          }
        }
      }
