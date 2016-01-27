@@ -226,10 +226,6 @@ Wat zijn typische problemen bij een 'Symmetric multiprocessing (SMP)'-architectu
 Vraag 16
 Welke uitspraken zijn juist in verband met de Cell-processor (2 juiste antwoorden):
 
-
-
-
-H6-3.gif
 Vraag 17
 Bij welke processor is een 'stall' in de pipeline het meest nadelig?
 
