@@ -1,0 +1,157 @@
+
+Vraag 1
+Welke omschrijving hoort bij welke processor ISA:
+Vraag
+32-bit CPU op basis van RISC-filosofie, geoptimaliseerd voor mobile en low-power toepassingen
+Eenvoudige 8-bit processor met 16-bit adresbus, gebruikt in vroege microcomputers als de Apple II en Acorn BBC computer.
+Klassieke 32-bit CISC processor, met ondersteuning complexe adresseringsmethoden en bewerkingen in het geheugen.
+Processor met geïntegreerde schakelingen voor aansturen van analoge en digitale hardware, geschikt voor kleine 'Internet of Things (IOT) devices.
+
+Vraag 2
+Welke omschrijving komt overeen met wel soort programmacode?
+Vraag
+Geeft de programmeur top op niveau van de processorhardware controle over hoe de code uitgevoerd zal worden.
+'High level' sourcecode wordt vertaald naar 'intermediate code' die dan uitgevoerd wordt door een interpreter of JIT compiler binnen een afgeschermde omgeving.
+Technische aspecten als memory management moeten door de programmeur verzorgd worden.
+De source code wordt door de compiler omgezet naar machinetaal die door de processor rechtstreeks uitgevoerd kan worden.
+
+Vraag 3
+Waar in de pipeline van moderne GPU's worden programmeerbare shaders gebruikt (2 juiste antwoorden)?
+
+Vraag 4
+Welk van volgende aspecten zijn typische nadelen van een VLIW-processor (2 juiste antwoorden)?
+
+Vraag 5
+Welke uitspraken zijn correct in verband met een 'Very Long Word Instruction (VLIW)'-processor (2 juiste antwoorden)?
+
+Vraag 6
+Welke uitspraken zijn correct betreffende multicore processoren (2 juiste antwoorden)?
+
+Vraag 7
+Welke uitspraken zijn juist in verband met de Cell-processor (2 juiste antwoorden):
+H6-3.gif
+
+Vraag 8
+Welke processor heeft de beste IPC-waarde (=Instructions per clockcycle).
+
+Vraag 9
+Bij welke processor is een 'stall' in de pipeline het meest nadelig?
+
+Vraag 10
+Duidt aan welke uitspraken van toepassing zijn bij een processor met een decoder op basis van microcode (2 juiste antwoorden).
+
+Vraag 11
+Wat zijn typische eigenschappen van een RISC-processor (2 juiste antwoorden)?
+
+Vraag 12
+Welke van volgende effecten zijn onvermijdelijk het gevolg van 'in order issuing ' van instructies (2 juiste antwoorden).
+
+Vraag 13
+Wat wordt bedoeld met de 'dispatch' van een instructie in een superscalaire processor?
+
+Vraag 14
+GPGPU processing (code uitvoeren op grafische kaarten) is interessant voor 'High Performance Computing' (HPC) omdat...
+
+Vraag 15
+Welke van volgende uitspraken is een juiste omschrijving van de forwarding-techniek in een processor?
+
+Vraag 16
+De maximale klokfrequentie van een pipelined processor wordt bepaald door ...
+
+Vraag 17
+Welke uitspraak geeft op een correcte manier het verband tussen de klokfrequentie van een processor en het aantal 'stages' in de pipeline daarvan.
+
+Vraag 18
+Welke van volgende toepassingen zijn het best geschikt voor verwerking op een grafische kaart via GPGPU processing?
+(2 juiste antwoorden)
+
+Vraag 19
+Welke van volgende toepassingen zijn het best geschikt voor verwerking op een grafische kaart via GPGPU processing?
+(2 juiste antwoorden)
+
+Vraag 20
+Wat betekent de term 'Dynamic Voltage Scaling' in een processor
+
+
+---
+
+Vraag 1
+Welke uitspraken zijn correct betreffende de SSE-instructie-uitbreiding (2 juiste antwoorden)?
+
+Vraag 2
+In welke van volgende categoriën vallen de SSE-instructies bij de Intel-processoren?
+
+Vraag 3
+Welke van volgende afhankelijkheden kan niet opgelost worden met behulp van 'register renaming'?
+
+Vraag 4
+Wat gebeurt er tijdens de 'write back' stage van de pipeline in een processor.
+
+Vraag 5
+Welke uitspraak geeft op een correcte manier het verband tussen de klokfrequentie van een processor en het aantal 'stages' in de pipeline daarvan.
+
+Vraag 6
+Wat betekent de term 'Code morphing' bij de Transmeta Crusoë processor.
+
+Vraag 7
+Welke uitspraken zijn correct in verband met een 'Very Long Word Instruction (VLIW)'-processor (2 juiste antwoorden)?
+
+Vraag 8
+Duidt aan welke uitspraken van toepassing zijn bij een processor met een decoder op basis van microcode (2 juiste antwoorden).
+
+Vraag 9
+Wat zijn typische eigenschappen van een RISC-processor (2 juiste antwoorden)?
+
+Vraag 10
+GPGPU processing (code uitvoeren op grafische kaarten) is interessant voor 'High Performance Computing' (HPC) omdat...
+
+Vraag 11
+Welke uitspraken zijn correct over de 'execution trace cache' (ETR) bij de Pentium IV processor?
+
+Vraag 12
+Bij welke processor is een 'stall' in de pipeline het meest nadelig?
+
+Vraag 13
+Welke omschrijving komt overeen met wel soort programmacode?
+
+Vraag
+Geeft de programmeur top op niveau van de processorhardware controle over hoe de code uitgevoerd zal worden.
+
+'High level' sourcecode wordt vertaald naar 'intermediate code' die dan uitgevoerd wordt door een interpreter of JIT compiler binnen een afgeschermde omgeving.
+
+Technische aspecten als memory management moeten door de programmeur verzorgd worden.
+
+De source code wordt door de compiler omgezet naar machinetaal die door de processor rechtstreeks uitgevoerd kan worden.
+
+Vraag 14
+Welke omschrijving hoort bij welke computerarchitectuur?
+
+Vraag
+Programmacode en data worden in een gemeenschappelijke geheugenschakeling opgeslagen.
+
+Laat toe gelijktijdig instructties en operanden(data) op te halen.
+
+Is vooral geschikt voor microcontrollers omdat de complexere geheugenarchitectuur minder problematisch is binnnen één chip dan in systemen met extern geheugen.
+
+Wordt bijna uitsluitend gebruikt voor general purpose processoren.
+
+Vraag 15
+Waar in de pipeline van moderne GPU's worden programmeerbare shaders gebruikt (2 juiste antwoorden)?
+
+Vraag 16
+Welke van volgende toepassingen zijn het best geschikt voor verwerking op een grafische kaart via GPGPU processing?
+(2 juiste antwoorden)
+
+Vraag 17
+GPGPU processing (berekeningen uitvoeren op de grafische kaart) is niet altijd zo gemakkelijk.
+Welke van volgende aspecten zijn specifieke voor GPGPU een probleem of beperking?
+(3 juiste antwoorden)
+
+Vraag 18
+Wat wordt bedoeld met de 'dispatch' van een instructie in een superscalaire processor?
+
+Vraag 19
+Welke van volgende effecten zijn onvermijdelijk het gevolg van 'in order issuing ' van instructies (2 juiste antwoorden).
+
+Vraag 20
+Wat betekent de term 'ACPI' bij computerhardware
