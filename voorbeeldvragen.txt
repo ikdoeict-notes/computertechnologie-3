@@ -72,7 +72,6 @@ Welke van volgende toepassingen zijn het best geschikt voor verwerking op een gr
 Vraag 20
 Wat betekent de term 'Dynamic Voltage Scaling' in een processor
 
-
 ---
 
 Vraag 1
@@ -155,3 +154,90 @@ Welke van volgende effecten zijn onvermijdelijk het gevolg van 'in order issuing
 
 Vraag 20
 Wat betekent de term 'ACPI' bij computerhardware
+
+---
+
+Vraag 1
+Wat zijn typische kenmerken van GPGPU processing (berekeningen in de grafische kaart).
+(2 juiste antwoorden).
+
+Vraag 2
+Welke van volgende toepassingen zijn het best geschikt voor verwerking op een grafische kaart via GPGPU processing?
+(2 juiste antwoorden)
+
+Vraag 3
+Wat betekent de term 'Code morphing' bij de Transmeta Crusoë processor.
+
+Vraag 4
+Welke uitspraken zijn correct in verband met een 'Very Long Word Instruction (VLIW)'-processor (2 juiste antwoorden)?
+
+Vraag 5
+Waar in de pipeline van moderne GPU's worden programmeerbare shaders gebruikt (2 juiste antwoorden)?
+
+Vraag 6
+Wat zijn gevolgen van het gebruik van 'out of order execution' (2 juiste antwoorden)?
+
+Vraag 7
+Welke van volgende technieken zijn een absolute vereiste om een IPC (= instructions per clockcycle) die groter is dan 1 mogelijk te maken (2 juiste antwoorden)?
+
+Vraag 8
+Welke van volgende afhankelijkheden kan opgelost worden door de forwarding' techniek?
+
+Vraag 9
+Welke van volgende technieken worden gebruikt om een 'pipeline stall' te vermijden in het geval van een controle-hazard (2 juiste antwoorden)?
+
+Vraag 10
+De maximale klokfrequentie van een pipelined processor wordt bepaald door ...
+
+Vraag 11
+Welke omschrijving komt overeen met wel soort programmacode?
+
+Vraag
+Geeft de programmeur top op niveau van de processorhardware controle over hoe de code uitgevoerd zal worden.
+
+'High level' sourcecode wordt vertaald naar 'intermediate code' die dan uitgevoerd wordt door een interpreter of JIT compiler binnen een afgeschermde omgeving.
+
+Technische aspecten als memory management moeten door de programmeur verzorgd worden.
+
+De source code wordt door de compiler omgezet naar machinetaal die door de processor rechtstreeks uitgevoerd kan worden.
+
+Vraag 12
+Welke omschrijving hoort bij welke processor ISA:
+
+Vraag
+32-bit CPU op basis van RISC-filosofie, geoptimaliseerd voor mobile en low-power toepassingen
+
+Eenvoudige 8-bit processor met 16-bit adresbus, gebruikt in vroege microcomputers als de Apple II en Acorn BBC computer.
+
+Klassieke 32-bit CISC processor, met ondersteuning complexe adresseringsmethoden en bewerkingen in het geheugen.
+
+Processor met geïntegreerde schakelingen voor aansturen van analoge en digitale hardware,  geschikt voor kleine 'Internet of Things (IOT) devices.
+
+Vraag 13
+Wat betekent de term 'Power Gating' bij een processor?
+
+Vraag 14
+Welk van volgende aspecten zijn specifieke problemen van 'Exascale' (of algemener 'High Performance') Computing?
+(3 juiste antwoorden)
+
+Vraag 15
+Wat zijn typische problemen bij een 'Symmetric multiprocessing (SMP)'-architectuur (2 juiste antwoorden)?
+
+Vraag 16
+Welke uitspraken zijn juist in verband met de Cell-processor (2 juiste antwoorden):
+
+
+
+
+H6-3.gif
+Vraag 17
+Bij welke processor is een 'stall' in de pipeline het meest nadelig?
+
+Vraag 18
+Welke uitspraken zijn correct over de 'execution trace cache' (ETR) bij de Pentium IV processor?
+
+Vraag 19
+Wat zijn typische eigenschappen van een RISC-processor (2 juiste antwoorden)?
+
+Vraag 20
+Duidt aan welke uitspraken van toepassing zijn bij een processor met een decoder op basis van microcode (2 juiste antwoorden).
