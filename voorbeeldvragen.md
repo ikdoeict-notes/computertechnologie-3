@@ -16,6 +16,9 @@
 
 - Welke uitspraken zijn correct betreffende multicore processoren (2 juiste antwoorden)?
 
+  - Implementatie van meerdere cores in 1 processor
+  - Verdeling van rekenwerk tussen verschillende threads die onafhankelijk van mekaar kunnen werken.
+
 - Welke uitspraken zijn juist in verband met de Cell-processor (2 juiste antwoorden):
 
   - ontworpen door IBM
@@ -28,6 +31,10 @@
 
 - Duidt aan welke uitspraken van toepassing zijn bij een processor met een decoder op basis van microcode (2 juiste antwoorden).
 
+  - gemakkelijker om nieuwe instructies toe te voegen (Control Store Uitbreiden)
+  - Interne hardware kan gewijzigd worden zonder de instruction set architecture aan te moeten passen
+  - mogelijk verschillende processoren te ontwerpen die toch compatibel zijn (microcode van alle processoren die zelfde macrocode ondersteunen)
+
 - Wat zijn typische eigenschappen van een RISC-processor (2 juiste antwoorden)?
 
   - hardware decoder
@@ -39,6 +46,8 @@
 - Welke van volgende effecten zijn onvermijdelijk het gevolg van 'in order issuing' van instructies (2 juiste antwoorden).
 
 - Wat wordt bedoeld met de 'dispatch' van een instructie in een superscalaire processor?
+
+  - Eerst meerdere instructies fetchen uit instruction cache (Registry Renaming waar nuttig). Wanneer klaar voor verwerking: instructie klaarzetten(Dispatch) in een wachtrij (Reserving station). Bij beschikbaarheid EX unit -> instructieverwerking starten (issuing).
 
 - GPGPU processing (code uitvoeren op grafische kaarten) is interessant voor 'High Performance Computing' (HPC) omdat...
 
