@@ -47,7 +47,7 @@
 
 - Wat wordt bedoeld met de 'dispatch' van een instructie in een superscalaire processor?
 
-  - Eerst meerdere instructies fetchen uit instruction cache (Registry Renaming waar nuttig). Wanneer klaar voor verwerking: instructie klaarzetten(Dispatch) in een wachtrij (Reserving station). Bij beschikbaarheid EX unit -> instructieverwerking starten (issuing).
+  - Eerst meerdere instructies fetchen uit instruction cache (Registry Renaming waar nuttig). Wanneer klaar voor verwerking: instructie klaarzetten(__Dispatch__) in een wachtrij (Reserving station). Bij beschikbaarheid EX unit -> instructieverwerking starten (issuing).
 
 - GPGPU processing (code uitvoeren op grafische kaarten) is interessant voor 'High Performance Computing' (HPC) omdat...
 
@@ -67,7 +67,13 @@
 
 - Welke van volgende afhankelijkheden kan niet opgelost worden met behulp van 'register renaming'?
 
-- Wat gebeurt er tijdens de 'write back' stage van de pipeline in een processor.
+- Wat zijn de 5 stages van een pipelined RISC architectuur?
+
+  1. __Instruction fetch (IF)__: Ophalen van een instructie uit geheugen en aanpassen PC voor colgende instructie
+  2. __Instruction decode (ID)__: Decoderen van de instructie en uitlezen van de operanden uit het registerbestand voor de ALU bewerking
+  3. __Execute (EX)__: Uitvoeren van de relevante berekening in de ALU
+  4. __Memory (MEM)__: Indien de instructie een geheugenoperatie vereist, wordt deze stap uitgevoerd.
+  5. __Write back (WB)__: Terugschrijven van het resultaat van de berekening of memory-operatie naar het registerbestand.
 
 - Wat betekent de term 'Code morphing' bij de Transmeta Crusoë processor.
 
@@ -97,9 +103,14 @@
 
 - Wat betekent de term 'Power Gating' bij een processor?
 
+  - Power gating: Delen van de CPU uitschakelen (klok en/of spanning)
+
 - Welk van volgende aspecten zijn specifieke problemen van 'Exascale' (of algemener 'High Performance') Computing? (3 juiste antwoorden)
 
 - Wat zijn typische problemen bij een 'Symmetric multiprocessing (SMP)'-architectuur (2 juiste antwoorden)?
+
+  - Bandbreedte van geheugen:van geheugen trager dan processoren -> processor moet regelmatig wachten (zeker bij meerdere processoren op één geheugen)
+  - Cache-consistentie: Om traagheid te compenseren -> cache -> alle processoren moeten op de hoogte gebracht worden als cache van 1 processor naar geheugen wordt geschreven
 
 - Welke omschrijving komt overeen met wel soort programmacode?
 
